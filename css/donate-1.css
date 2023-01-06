@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Lobster", cursive;
+}
+
+.primary-btn {
+  background: #ff5959;
+  padding: 15px 24px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  border: 0;
+  border-radius: 4px;
+}
+
+section {
+  padding-top: 130px;
+}
+/* header banner-section */
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/banner-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  margin: 0px 50px 0px 0px;
+}
+
+header {
+  background: #fafafa;
+  padding: 66px 0px 86px;
+}
+
+.banner-title {
+  color: #121212;
+  font-size: 65px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  width: 524px;
+}
+.banner-description {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  width: 471px;
+  color: #707070;
+  padding: 12px 0px 20px;
+}
+
+.video-btn {
+  background: transparent;
+  color: rgba(112, 112, 112, 1);
+}
+
+.banner-img-1 {
+  width: 90%;
+  margin-left: 7px;
+}
+
+/* donate section */
+
+.donate-today {
+  max-width: 775px;
+  margin: auto;
+  text-align: center;
+}
+
+.section-title {
+  color: #121212;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+}
+
+.section-description {
+  color: #707070;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 18px 0px 35px;
+  width: 691px;
+  margin: auto;
+  text-align: center;
+}
+
+.donate-amount {
+  display: flex;
+  justify-content: space-between;
+}
+.amount {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 44px 24px;
+}
+.select-amount {
+  background: #ffeeee;
+  border: 1.5px solid #ff5959;
+}
+.select-amount .amount-title {
+  color: rgba(255, 89, 89, 1);
+}
+.amount-title {
+  color: #707070;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.amount-description {
+  color: #b3b3b3;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 50px 0px 10px;
+  border-bottom: 1px solid #dadada;
+  margin-bottom: 30px;
+}
+
+/* donate-plan section */
+.donate-plan {
+  margin: 0px 150px;
+}
+
+.donate-container {
+  display: flex;
+  text-align: left;
+  gap: 20px;
+}
+
+.donate-title {
+  color: #121212;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 10px 0px 8px;
+}
+.donate-description {
+  color: #707070;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.donate {
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+  padding: 55px 24px 30px 22px;
+}
+
+.donate-tow {
+  background: rgba(255, 89, 89, 0.1);
+}
+.donate-three {
+  background: #fff4d6;
+}
+
+/* donation section */
+
+.donation-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin: 100px 0px;
+}
+
+.donation-text .section-title,
+.donation-text .section-description {
+  text-align: left;
+  width: 480px;
+}
+
+/* .donation-text .section-description {
+  margin-bottom: 10px;
+  } */
+
+.donate-img {
+  width: 90%;
+}
+
+.donation-description {
+  padding: 15px 0px;
+}
+
+.donation-tow {
+  gap: 50px;
+  margin: 100px 0px 0px;
+}
+.donation-tow .donation-text {
+  margin-right: -35px;
+}
+
+/* subscribe section */
+
+.subscribe {
+  display: flex;
+  max-width: 430px;
+  margin: auto;
+  text-align: center;
+  background: #fff4d6;
+  padding: 80px 180px;
+}
+
+.subscribe .input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding: 0px 0px 0px 20px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.subscribe-btn {
+  border-radius: 0px 5px 5px 0px;
+}
+
+/* footer section */
+
+footer {
+  margin-top: 130px;
+}
+
+.footer {
+  text-align: center;
+  padding: 45px 0px;
+  color: #fff;
+  background: #0b0d17;
+}
+
+.footer-title {
+  color: #ff5959;
+  font-size: 36px;
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+}
+.footer-description {
+  color: #d9dbe1;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
